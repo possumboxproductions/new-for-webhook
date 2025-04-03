@@ -3,7 +3,7 @@ version: 2.1
 parameters:
   run_integration_tests:
     type: boolean
-    default: 1
+    default: true
 
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/jobs-steps/#jobs-overview & https://circleci.com/docs/configuration-reference/#jobs
